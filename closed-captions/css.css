@@ -11,6 +11,7 @@ Feel free to adjust the defaults to your needs.
     position: absolute;
     width: 100%;
     text-align: center;
+    margin-top: -2%;
 }
 
 #closed-captions .on {
@@ -40,12 +41,12 @@ Feel free to adjust the defaults to your needs.
 .voice3 {
     text-transform: uppercase;
     color: #c72525;
-    font-family: "brenner sans medium";
+    font-family: "brenner sans bold";
     font-size: 1.5em;
 }
 
 .voice4 {
-    font-family: "brenner sans";
+    font-family: "brenner sans condensed";
     color: darkgray;
     font-style: italic;
 }
@@ -93,7 +94,7 @@ You probably want to change the styling.
     opacity: 1;
     transition: 0s .7s;
     margin-right: -.25em;
-    font-weight: 800;
+    font-family: "brenner sans";
 }
 
 .p0.on span:nth-of-type(5) {
@@ -107,20 +108,20 @@ You probably want to change the styling.
     opacity: 1;
     transition: 0s 1.4s;
     margin-right: -.25em;
-    font-family: "brenner display";
+    font-family: "brenner sans";
 }
 
 .p0.on span:nth-of-type(7) {
     opacity: 1;
     transition: 0s 1.7s;
     margin-right: -.25em;
-    font-family: "brenner script";
+    font-family: "brenner sans";
 }
 
 .p0.on span:nth-of-type(8) {
     opacity: 1;
     transition: 0s 2s;
-    font-family: "brenner script";
+    font-family: "brenner sans";
 }
 
 .p0.on span:nth-of-type(9) {
@@ -138,7 +139,7 @@ You probably want to change the styling.
 .p0.on span:nth-of-type(11) {
     opacity: 1;
     transition: 0s 3.7s;
-    font-family: "brenner slab";
+    font-family: "brenner sans";
 }
 
 .p2 span {
@@ -146,17 +147,17 @@ You probably want to change the styling.
     font-weight: 900;
 }
 
-.p5 , .p9 span {
+.p5 , .p9 , .p11 span {
     font-family: "brenner sans";
     font-weight: 300;
 }
 
-.p2, .p5, .p9 span {
+.p2, .p5, .p9 , .p11 span {
     text-transform: uppercase;
     position: relative;
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-size: 4vw;
+    font-size: 3vw;
     text-align: center;
     text-decoration: none;
     color: white;
