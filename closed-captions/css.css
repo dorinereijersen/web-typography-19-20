@@ -32,7 +32,9 @@ You probably want to change the styling.
 .p0 span {
 	opacity: 0;
 	font-family: brenner;
+    color: gray;
 }
+
 .p0.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
@@ -93,4 +95,13 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0s 3.7s;
 	font-family: "brenner slab";
+}
+
+.p9 span {
+    background-color: yellow;
+}
+ 
+.p1 span {
+    background-color: green;
+    padding: 1em;
 }

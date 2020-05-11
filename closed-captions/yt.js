@@ -136,4 +136,3 @@ function sTimes(num,soundStarts,curT) {
 		};
 	}
 })();
-
