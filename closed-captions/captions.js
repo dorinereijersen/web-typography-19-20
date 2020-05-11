@@ -2,14 +2,13 @@
 
 captions[0] = ['3.5','8.3'];
     //yes, sir
-captions[1] = ['8.3','9.5'];
-    //beeep
-captions[2] = ['9.5','10.7'];
+captions[1] = ['8.3','9.3'];
+    //buzzer
+captions[2] = ['9.3','10.7'];
     //recite your baseline
 captions[3] = ['10.8','12.5'];
 	//And blood-black nothingness began to spin
 captions[4] = ['12.5','15.6'];
-
     //beeep
 captions[5] = ['16.2','17.0']
 captions[6] = ['17.369','20'];
