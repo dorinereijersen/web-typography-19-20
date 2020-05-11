@@ -9,6 +9,8 @@ Feel free to adjust the defaults to your needs.
     opacity: 0;
     transition: .05s;
     position: absolute;
+    width: 100%;
+    text-align: center;
 }
 
 #closed-captions .on {
@@ -20,9 +22,14 @@ Feel free to adjust the defaults to your needs.
     opacity: 0;
 }
 
+#video-placeholder {
+    display: block;
+    margin: auto;
+}
+
 .voice1 {
     font-style: italic;
-    color: darkblue;
+    color: #59daee;
     font-family: "brenner mono";
 }
 
@@ -32,13 +39,20 @@ Feel free to adjust the defaults to your needs.
 
 .voice3 {
     text-transform: uppercase;
-    color: darkred;
+    color: #c72525;
     font-family: "brenner sans medium";
     font-size: 1.5em;
 }
 
+.voice4 {
+    font-family: "brenner sans";
+    color: darkgray;
+    font-style: italic;
+}
+
 body {
-    background-color: lightgray;
+    background-color: black;
+    color: white;
 }
 
 
@@ -132,12 +146,12 @@ You probably want to change the styling.
     font-weight: 900;
 }
 
-.p5 span {
+.p5 , .p9 span {
     font-family: "brenner sans";
     font-weight: 300;
 }
 
-.p2,.p5 span {
+.p2, .p5, .p9 span {
     text-transform: uppercase;
     position: relative;
     text-transform: uppercase;
@@ -148,7 +162,7 @@ You probably want to change the styling.
     color: white;
     display: inline-block;
     background-size: 120% 100%;
-    color: gray;
+    color: lightgray;
     animation: 0.1s shake infinite alternate;
 }
 
