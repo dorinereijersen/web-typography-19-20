@@ -966,6 +966,18 @@ You probably want to change the styling.
     font-weight: 400;
     color: #628a91;
 }
+.p44.on span:nth-of-type(2),
+.p44.on span:nth-of-type(3),
+.p44.on span:nth-of-type(4),
+.p44.on span:nth-of-type(5),
+.p44.on span:nth-of-type(6),
+.p44.on span:nth-of-type(7),
+.p44.on span:nth-of-type(8),
+.p44.on span:nth-of-type(9),
+.p44.on span:nth-of-type(10),
+.p44.on span:nth-of-type(11){
+    color: black;
+}
 .p45.on span:first-of-type {
     font-weight: 400;
     color: #776531;
@@ -1008,6 +1020,7 @@ You probably want to change the styling.
 .p47.on span:nth-of-type(5) {
     color: black;
 }
+
 .p51.on span:first-of-type {
     font-weight: 400;
     color: #cca845;
