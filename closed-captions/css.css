@@ -11,7 +11,6 @@ Feel free to adjust the defaults to your needs.
     position: absolute;
     width: 100%;
     text-align: center;
-    margin-top: -10%;
 }
 
 #closed-captions .on {
@@ -26,8 +25,8 @@ Feel free to adjust the defaults to your needs.
 #video-placeholder {
     display: block;
     margin: auto;
-    width: 90vw;
-    height: 50vw;
+    margin-top: 5%;
+    height: 30em;
 }
 
 p.voice1 {
@@ -36,7 +35,6 @@ p.voice1 {
     font-family: "brenner mono";
     text-shadow: 1px 1px 3px #000000;
 }
-
 
 .voice2 {
     font-family: "brenner sans";
@@ -60,16 +58,14 @@ body {
     color: white;
 }
 
-/*animation beep*/
+/*animatie beep, buzzer > bewegen en kleuren*/
 
 body.sound0.sound1.sound2 {
     animation: shake-little 0.1s infinite alternate;
     animation-play-state: running;
-    background-color: #111111;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
-}
+    animation: buzzer 1s ease;
+  }
+
 body.sound0.sound1.sound2.sound3 {
     animation: none;
 }
@@ -77,10 +73,7 @@ body.sound0.sound1.sound2.sound3 {
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6{
     animation: shake-little 0.1s infinite alternate;
     animation-play-state: running;
-    background-color: #252525;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+    animation: peep 1s ease;
 }
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7{
@@ -90,14 +83,210 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7{
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8 {
     animation: shake-little 0.1s infinite alternate;
     animation-play-state: running;
+    animation: peep 1s ease;
 }
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9{
     animation: none;
-    background-color: #454545;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12{
+    animation: shake-little 1s ease;
+    animation-play-state: running;
+    animation: peep 1s ease;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13 #video-placeholder{
+    animation: invert1 2s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14 #video-placeholder{
+    animation: invert2 2s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15 #video-placeholder{
+    animation: invert3 2s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16 #video-placeholder{
+    animation: invert4 2s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17 #video-placeholder{
+    animation: invert5 2s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18 #video-placeholder{
+    animation: invert6 2s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19 #video-placeholder{
+    animation: invert7 2s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20 #video-placeholder{
+    animation: invert8 2s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21 #video-placeholder{
+    animation: invert9 2s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22 #video-placeholder{
+    animation: invert10 2s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23 #video-placeholder{
+    animation: invert11 3s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24 #video-placeholder{
+    animation: invert12 3s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25 #video-placeholder{
+    animation: invert13 2s infinite;
+}
+
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26 #video-placeholder{
+    animation: invert14 2s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27 #video-placeholder{
+    animation: invert15 2s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28 #video-placeholder{
+    animation: invert16 2s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29 #video-placeholder{
+    animation: none;
+}
+
+@keyframes invert1 {
+    0% {
+        filter: invert(0%);
+    }
+    100% {
+        filter: invert(5%);
+    }
+}
+@keyframes invert2 {
+    0% {
+        filter: invert(5%);
+    }
+    100% {
+        filter: invert(10%);
+    }
+}
+@keyframes invert3 {
+    0% {
+        filter: invert(10%);
+    }
+    100% {
+        filter: invert(20%);
+    }
+}
+@keyframes invert4 {
+    0% {
+        filter: invert(20%);
+    }
+    100% {
+        filter: invert(30%);
+    }
+}
+@keyframes invert5 {
+    0% {
+        filter: invert(30%);
+    }
+    100% {
+        filter: invert(35%);
+    }
+}
+@keyframes invert6 {
+    0% {
+        filter: invert(35%);
+    }
+    100% {
+        filter: invert(40%);
+    }
+}
+@keyframes invert7 {
+    0% {
+        filter: invert(40%);
+    }
+    100% {
+        filter: invert(45%);
+    }
+}
+@keyframes invert8 {
+    0% {
+        filter: invert(45%);
+    }
+    100% {
+        filter: invert(50%);
+    }
+}
+@keyframes invert9 {
+    0% {
+        filter: invert(50%);
+    }
+    100% {
+        filter: invert(55%);
+    }
+}
+@keyframes invert10 {
+    0% {
+        filter: invert(55%);
+    }
+    100% {
+        filter: invert(60%);
+    }
+}
+@keyframes invert11 {
+    0% {
+        filter: invert(60%);
+    }
+    100% {
+        filter: invert(65%);
+    }
+}
+@keyframes invert12 {
+    0% {
+        filter: invert(65%);
+    }
+    100% {
+        filter: invert(70%);
+    }
+}
+@keyframes invert13 {
+    0% {
+        filter: invert(70%);
+    }
+    100% {
+        filter: invert(75%);
+    }
+}
+@keyframes invert14 {
+    0% {
+        filter: invert(75%);
+    }
+    100% {
+        filter: invert(80%);
+    }
+}
+@keyframes invert15 {
+    0% {
+        filter: invert(80%);
+    }
+    100% {
+        filter: invert(85%);
+    }
+}
+@keyframes invert16 {
+    0% {
+        filter: invert(85%);
+    }
+    100% {
+        filter: invert(90%);
+    }
 }
 
 @keyframes shake-little {
@@ -202,6 +391,50 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9{
   0%, 100% {
     transform: translate(0, 0) rotate(0); } }
 
+/*kleurtjes*/
+
+@keyframes buzzer {
+    0% {
+        background-color: rgba(255, 0, 0, 0.26);
+    }
+
+    100% {
+        background-color: rgba(255, 0, 0, 0.79);
+    }
+}
+
+@keyframes peep {
+    0% {
+        background-color: rgba(255, 255, 255, 0.26);
+    }
+
+    100% {
+        background-color: rgba(204, 204, 204, 0.79);
+    }
+}
+
+/*
+body.sound1.sound2.sound3.sound4 {
+    animation: doorSound 0.5s ease-in-out;
+    animation-iteration-count: 5;
+}
+
+@keyframes doorSound {
+    0% {
+        background-color: #000;
+    }
+    10% {
+        background-color: #444444;
+    }
+    40% {
+        background-color: #979797;
+    }
+    100% {
+        background-color: #000000;
+    }
+}
+*/
+
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -295,6 +528,7 @@ You probably want to change the styling.
 .p5 , .p9 , .p11 span {
     font-family: "brenner sans";
     font-weight: 300;
+    color: black;
 }
 
 .p2, .p5, .p9 , .p11 span {
@@ -305,10 +539,9 @@ You probably want to change the styling.
     font-size: 3vw;
     text-align: center;
     text-decoration: none;
-    color: white;
+    color: black;
     display: inline-block;
     background-size: 120% 100%;
-    color: lightgray;
     animation: 0.1s shake infinite alternate;
 }
 
