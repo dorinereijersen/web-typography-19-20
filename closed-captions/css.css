@@ -96,14 +96,14 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation: peep 1s ease;
 }
 
+/*video negatief*/
+
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13 #video-placeholder{
     animation: invert1 2s infinite;
 }
-
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14 #video-placeholder{
     animation: invert2 2s infinite;
 }
-
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15 #video-placeholder{
     animation: invert3 2s infinite;
 }
@@ -116,19 +116,15 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18 #video-placeholder{
     animation: invert6 2s infinite;
 }
-
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19 #video-placeholder{
     animation: invert7 2s infinite;
 }
-
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20 #video-placeholder{
     animation: invert8 2s infinite;
 }
-
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21 #video-placeholder{
     animation: invert9 2s infinite;
 }
-
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22 #video-placeholder{
     animation: invert10 2s infinite;
 }
@@ -145,7 +141,6 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation: invert13 2s infinite;
 }
 
-
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26 #video-placeholder{
     animation: invert14 2s infinite;
 }
@@ -156,9 +151,175 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28 #video-placeholder{
     animation: invert16 2s infinite;
 }
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29 #video-placeholder{
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29 #video-placeholder {
     animation: none;
 }
+
+/*achtergrond mee veranderen*/
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13 {
+    animation: kleur1 2s ease-in;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14 {
+    animation: kleur2 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15 {
+    animation: kleur3 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16 {
+    animation: kleur4 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17 {
+    animation: kleur5 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18 {
+    animation: kleur6 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19 {
+    animation: kleur7 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20 {
+    animation: kleur8 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21 {
+    animation: kleur9 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22 {
+    animation: kleur10 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23 {
+    animation: kleur11 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24 {
+    animation: kleur12 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25 {
+    animation: kleur13 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26 {
+    animation: kleur14 1s infinite;
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27 {
+    animation: kleur15 1s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28 {
+    animation: kleur16 1s infinite;
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29 {
+    background-color: black;
+}
+
+/*keyframes kleur bg*/
+
+@keyframes kleur1 {
+    0% {
+        background-color: rgb(3, 3, 3);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+@keyframes kleur2 {
+    0% {
+        background-color: rgba(18, 18, 18);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+@keyframes kleur3 {
+    0% {
+        background-color: rgba(18, 18, 18);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+@keyframes kleur4 {
+    0% {
+        background-color: rgba(18, 18, 18);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+@keyframes kleur5 {
+    0% {
+        background-color: rgba(62, 62, 62, 100);
+    }
+    100% {
+        background-color: rgb(62, 62, 62, 100);
+    }
+}
+@keyframes kleur6 {
+    0% {
+        background-color: rgba(18, 18, 18);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+@keyframes kleur7 {
+    0% {
+        background-color: rgba(18, 18, 18);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+@keyframes kleur8 {
+    0% {
+        background-color: rgba(18, 18, 18);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+@keyframes kleur9 {
+    0% {
+        background-color: rgba(18, 18, 18);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+@keyframes kleur10 {
+    0% {
+        background-color: rgba(18, 18, 18);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+@keyframes kleur11 {
+    0% {
+        background-color: rgba(18, 18, 18);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+@keyframes kleur12 {
+    0% {
+        background-color: rgba(18, 18, 18);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+@keyframes kleur13 {
+    0% {
+        background-color: rgba(18, 18, 18);
+    }
+    100% {
+        background-color: rgb(18, 18, 18);
+    }
+}
+
+
+/*keyframes invert*/
 
 @keyframes invert1 {
     0% {
@@ -213,34 +374,18 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
         filter: invert(40%);
     }
     100% {
-        filter: invert(45%);
+        filter: invert(42%);
     }
 }
 @keyframes invert8 {
     0% {
-        filter: invert(45%);
-    }
-    100% {
-        filter: invert(50%);
-    }
-}
-@keyframes invert9 {
-    0% {
-        filter: invert(50%);
-    }
-    100% {
-        filter: invert(55%);
-    }
-}
-@keyframes invert10 {
-    0% {
-        filter: invert(55%);
+        filter: invert(42%);
     }
     100% {
         filter: invert(60%);
     }
 }
-@keyframes invert11 {
+@keyframes invert9 {
     0% {
         filter: invert(60%);
     }
@@ -248,7 +393,7 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
         filter: invert(65%);
     }
 }
-@keyframes invert12 {
+@keyframes invert10 {
     0% {
         filter: invert(65%);
     }
@@ -256,7 +401,7 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
         filter: invert(70%);
     }
 }
-@keyframes invert13 {
+@keyframes invert11 {
     0% {
         filter: invert(70%);
     }
@@ -264,7 +409,7 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
         filter: invert(75%);
     }
 }
-@keyframes invert14 {
+@keyframes invert12 {
     0% {
         filter: invert(75%);
     }
@@ -272,7 +417,7 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
         filter: invert(80%);
     }
 }
-@keyframes invert15 {
+@keyframes invert13 {
     0% {
         filter: invert(80%);
     }
@@ -280,12 +425,28 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
         filter: invert(85%);
     }
 }
-@keyframes invert16 {
+@keyframes invert14 {
     0% {
         filter: invert(85%);
     }
     100% {
         filter: invert(90%);
+    }
+}
+@keyframes invert15 {
+    0% {
+        filter: invert(90%);
+    }
+    100% {
+        filter: invert(95%);
+    }
+}
+@keyframes invert16 {
+    0% {
+        filter: invert(95%);
+    }
+    100% {
+        filter: invert(100%);
     }
 }
 
