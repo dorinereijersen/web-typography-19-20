@@ -155,7 +155,7 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation: none;
 }
 
-/*achtergrond mee veranderen*/
+achtergrond mee veranderen
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13 {
     animation: kleur1 2s ease-in;
@@ -171,6 +171,7 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17 {
     animation: kleur5 1s infinite;
+    margin: 0px;
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18 {
     animation: kleur6 1s infinite;
@@ -208,7 +209,7 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
 }
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29 {
-    background-color: black;
+    animation: none;
 }
 
 /*keyframes kleur bg*/
@@ -226,7 +227,7 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
         background-color: rgba(18, 18, 18);
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #0D0D0D;
     }
 }
 @keyframes kleur3 {
@@ -279,42 +280,66 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
 }
 @keyframes kleur9 {
     0% {
-        background-color: rgba(18, 18, 18);
+        background-color: #a2a2a2;
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #a3a3a3;
     }
 }
 @keyframes kleur10 {
     0% {
-        background-color: rgba(18, 18, 18);
+        background-color: #aaa8a8;
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #adadad;
     }
 }
 @keyframes kleur11 {
     0% {
-        background-color: rgba(18, 18, 18);
+        background-color: #BBBBBB;
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #BBBBBB;
     }
 }
 @keyframes kleur12 {
     0% {
-        background-color: rgba(18, 18, 18);
+        background-color: #cccccc;
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #cccccc;
     }
 }
 @keyframes kleur13 {
     0% {
-        background-color: rgba(18, 18, 18);
+        background-color: #d8d8d8;
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #d9d9d9;
+    }
+}
+@keyframes kleur14 {
+    0% {
+        background-color: #C3C3C3;
+    }
+    100% {
+        background-color: #F4F4F4;
+    }
+}
+@keyframes kleur15 {
+    0% {
+        background-color: #F2F2F2;
+    }
+    100% {
+        background-color: #F1F1F1;
+    }
+}
+@keyframes kleur16 {
+    0% {
+        background-color: #F1F1F1;
+    }
+    100% {
+        background-color: #ffffff;
     }
 }
 
