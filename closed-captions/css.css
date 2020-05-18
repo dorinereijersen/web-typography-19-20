@@ -31,9 +31,7 @@ Feel free to adjust the defaults to your needs.
 
 p.voice1 {
     font-style: italic;
-    color: #e9a11e;
     font-family: "brenner mono";
-    text-shadow: 1px 1px 3px #000000;
 }
 
 .voice2 {
@@ -155,127 +153,137 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation: none;
 }
 
-achtergrond mee veranderen
+/*achtergrond mee veranderen*/
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13 {
-    animation: kleur1 2s ease-in;
+    animation: kleur1 2s infinite;
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14 {
-    animation: kleur2 1s infinite;
+    animation: kleur2 2s infinite;
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15 {
-    animation: kleur3 1s infinite;
+    animation: kleur3 2s infinite;
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16 {
-    animation: kleur4 1s infinite;
+    animation: kleur4 2s infinite;
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17 {
-    animation: kleur5 1s infinite;
-    margin: 0px;
+    animation: kleur5 2s infinite;
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18 {
-    animation: kleur6 1s infinite;
+    animation: kleur6 2s infinite;
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19 {
-    animation: kleur7 1s infinite;
+    animation: kleur7 2s infinite;
+    filter: saturate(1);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20 {
-    animation: kleur8 1s infinite;
+    animation: kleur8 2s infinite;
+    filter: saturate(2);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21 {
-    animation: kleur9 1s infinite;
+    animation: kleur9 2s infinite;
+    filter: saturate(3);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22 {
-    animation: kleur10 1s infinite;
+    animation: kleur10 2s infinite;
+    filter: saturate(4);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23 {
-    animation: kleur11 1s infinite;
+    animation: kleur11 2s infinite;
+    filter: saturate(5;)
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24 {
-    animation: kleur12 1s infinite;
+    animation: kleur12 2s infinite;
+    filter: saturate(6);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25 {
-    animation: kleur13 1s infinite;
+    animation: kleur13 2s infinite;
+    filter: saturate(7);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26 {
-    animation: kleur14 1s infinite;
+    animation: kleur14 2s infinite;
+    filter: saturate(8);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27 {
-    animation: kleur15 1s infinite;
+    animation: kleur15 2s infinite;
+    filter: saturate(9);
 }
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28 {
-    animation: kleur16 1s infinite;
+    animation: kleur16 2s infinite;
+    filter: saturate(10);
 }
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29 {
     animation: none;
+    filter: none;
 }
 
 /*keyframes kleur bg*/
 
 @keyframes kleur1 {
     0% {
-        background-color: rgb(3, 3, 3);
+        background-color: #000000;
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #0d0d0d;
     }
 }
 @keyframes kleur2 {
     0% {
-        background-color: rgba(18, 18, 18);
+        background-color: #0d0d0d;
     }
     100% {
-        background-color: #0D0D0D;
+        background-color: #191919;
     }
 }
 @keyframes kleur3 {
     0% {
-        background-color: rgba(18, 18, 18);
+        background-color: #191919;
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #333333;
     }
 }
 @keyframes kleur4 {
     0% {
-        background-color: rgba(18, 18, 18);
+        background-color: #333333;
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #4d4d4d;
     }
 }
 @keyframes kleur5 {
     0% {
-        background-color: rgba(62, 62, 62, 100);
+        background-color: #4d4d4d;
     }
     100% {
-        background-color: rgb(62, 62, 62, 100);
+        background-color: #5a5a5a;
     }
 }
 @keyframes kleur6 {
     0% {
-        background-color: rgba(18, 18, 18);
+        background-color: #5a5a5a;
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #656565
     }
 }
 @keyframes kleur7 {
     0% {
-        background-color: rgba(18, 18, 18);
+        background-color: #696969;
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #696969;
     }
 }
 @keyframes kleur8 {
     0% {
-        background-color: rgba(18, 18, 18);
+        background-color: #696969;
     }
     100% {
-        background-color: rgb(18, 18, 18);
+        background-color: #989898;
     }
 }
 @keyframes kleur9 {
@@ -288,18 +296,18 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
 }
 @keyframes kleur10 {
     0% {
-        background-color: #aaa8a8;
+        background-color: #a3a3a3;
     }
     100% {
-        background-color: #adadad;
+        background-color: #b4b4b4;
     }
 }
 @keyframes kleur11 {
     0% {
-        background-color: #BBBBBB;
+        background-color: #b5b5b5;
     }
     100% {
-        background-color: #BBBBBB;
+        background-color: #c1c1c1;
     }
 }
 @keyframes kleur12 {
@@ -312,23 +320,23 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
 }
 @keyframes kleur13 {
     0% {
-        background-color: #d8d8d8;
+        background-color: #cccccc;
     }
     100% {
-        background-color: #d9d9d9;
+        background-color: #d8d8d8;
     }
 }
 @keyframes kleur14 {
     0% {
-        background-color: #C3C3C3;
+        background-color: #d8d8d8;
     }
     100% {
-        background-color: #F4F4F4;
+        background-color: #e8e8e8;
     }
 }
 @keyframes kleur15 {
     0% {
-        background-color: #F2F2F2;
+        background-color: #e8e8e8;
     }
     100% {
         background-color: #F1F1F1;
@@ -637,7 +645,8 @@ You probably want to change the styling.
 .p0.on span:first-of-type {
     opacity: 1;
     transition: 0s;
-    font-weight: 200;
+    font-weight: 400;
+    color: #95e2f0;
 }
 
 .p0.on span:nth-of-type(2) {
@@ -706,11 +715,32 @@ You probably want to change the styling.
     font-family: "brenner sans";
 }
 
+.p1.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p1.on span:nth-last-of-type(3) {
+    font-weight: 400;
+    color: #cca845;
+}
+
 .p2 span {
     font-family: "brenner sans";
     font-weight: 900;
 }
 
+.p3.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p4.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p4.on span:nth-last-of-type(7) {
+    font-weight: 400;
+    color: #cca845;
+}
 .p5 , .p9 , .p11 span {
     font-family: "brenner sans";
     font-weight: 300;
@@ -731,6 +761,261 @@ You probably want to change the styling.
     animation: 0.1s shake infinite alternate;
 }
 
+.p6.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p6.on span:nth-last-of-type(8) {
+    font-weight: 400;
+    color: #cca845;
+}
+
+.p7.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p7.on span:nth-last-of-type(8) {
+    font-weight: 400;
+    color: #cca845;
+}
+.p10.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p10.on span:nth-last-of-type(12) {
+    font-weight: 400;
+    color: #cca845;
+}
+.p12.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p13.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p13.on span:nth-last-of-type(2) {
+    font-weight: 400;
+    color: #cca845;
+}
+.p14.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p15.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p16.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p16.on span:nth-last-of-type(2) {
+    font-weight: 400;
+    color: #cca845;
+}
+.p17.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p18.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p19.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p19.on span:nth-last-of-type(2) {
+    font-weight: 400;
+    color: #cca845;
+}
+.p20.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p21.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p22.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p22.on span:nth-last-of-type(2) {
+    font-weight: 400;
+    color: #cca845;
+}
+.p23.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p24.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p24.on span:nth-last-of-type(2) {
+    font-weight: 400;
+    color: #cca845;
+}
+.p25.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p26.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p27.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p27.on span:nth-last-of-type(2) {
+    font-weight: 400;
+    color: #cca845;
+}
+.p28.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p29.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p30.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p30.on span:nth-last-of-type(2) {
+    font-weight: 400;
+    color: #cca845;
+}
+.p31.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p32.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p33.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p33.on span:nth-last-of-type(2) {
+    font-weight: 400;
+    color: #cca845;
+}
+.p34.on span:first-of-type {
+    font-weight: 400;
+    color: #95e2f0;
+}
+.p35.on span:first-of-type {
+    font-weight: 400;
+    color: #776531;
+}
+.p35.on span:nth-last-of-type(2) {
+    font-weight: 400;
+    color: #776531;
+}
+.p36.on span:first-of-type {
+    font-weight: 400;
+    color: #628a91;
+}
+.p37.on span:first-of-type {
+    font-weight: 400;
+    color: #628a91;
+}
+.p38.on span:first-of-type {
+    font-weight: 400;
+    color: #776531;
+}
+.p38.on span:nth-last-of-type(2) {
+    font-weight: 400;
+    color: #776531;
+}
+.p39.on span:first-of-type {
+    font-weight: 400;
+    color: #628a91;
+}
+.p40.on span:first-of-type {
+    font-weight: 400;
+    color: #628a91;
+}
+.p41.on span:first-of-type {
+    font-weight: 400;
+    color: #776531;
+}
+.p41.on span:nth-last-of-type(2) {
+    font-weight: 400;
+    color: #776531;
+}
+.p42.on span:first-of-type {
+    font-weight: 400;
+    color: #628a91;
+}
+.p43.on span:first-of-type {
+    font-weight: 400;
+    color: #776531;
+}
+.p43.on span:nth-last-of-type(4) {
+    font-weight: 400;
+    color: #776531;
+}
+.p44.on span:first-of-type {
+    font-weight: 400;
+    color: #628a91;
+}
+.p45.on span:first-of-type {
+    font-weight: 400;
+    color: #776531;
+}
+.p45.on span:nth-last-of-type(5),
+.p45.on span:nth-last-of-type(1){
+    font-weight: 400;
+    color: #776531;
+}
+.p45.on span:nth-of-type(3),
+.p45.on span:nth-of-type(4),
+.p45.on span:nth-of-type(5) {
+    color: black;
+}
+.p46.on span:first-of-type {
+    font-weight: 400;
+    color: #776531;
+}
+.p46.on span:nth-last-of-type(5),
+.p46.on span:nth-last-of-type(1){
+    font-weight: 400;
+    color: #776531;
+}
+.p46.on span:nth-of-type(3),
+.p46.on span:nth-of-type(4),
+.p46.on span:nth-of-type(5) {
+    color: black;
+}
+.p47.on span:first-of-type {
+    font-weight: 400;
+    color: #776531;
+}
+.p47.on span:nth-last-of-type(5),
+.p47.on span:nth-last-of-type(1){
+    font-weight: 400;
+    color: #776531;
+}
+.p47.on span:nth-of-type(3),
+.p47.on span:nth-of-type(4),
+.p47.on span:nth-of-type(5) {
+    color: black;
+}
+.p51.on span:first-of-type {
+    font-weight: 400;
+    color: #cca845;
+}
+.p51.on span:nth-last-of-type(4) {
+    font-weight: 400;
+    color: #cca845;
+}
 @keyframes shake {
     0% {
         transform: skewX(-15deg);
