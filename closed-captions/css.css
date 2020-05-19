@@ -1097,14 +1097,34 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
 }
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32 #video-placeholder{
-    animation: width 1s infinite;
+    animation: width 8s infinite;
+    animation-play-state: running;
 }
 
 @keyframes width {
     0% {
-        width: 50vw;
+        transform: scale(1, 1);
+        top: 10%;
+    }
+    50% {
+        transform: scale(1.3, 1.3);
+        top: 10%;
     }
     100% {
-        width: 100vw;
+        transform: scale(1, 1);
+        top: 10%;
     }
+}
+@keyframes width1 {
+    0% {
+        transform: scale(1, 1);
+        top: 10%
+    }
+    100% {
+        transform: scale(1, 1);
+        top: 10%;
+    }
+}
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32.sound33.sound34 #video-placeholder{
+    animation: width1 1s infinite;
 }
