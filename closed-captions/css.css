@@ -38,13 +38,6 @@ p.voice1 {
     font-family: "brenner sans";
 }
 
-.voice3 {
-    text-transform: uppercase;
-    color: #c72525;
-    font-family: "brenner sans bold";
-    font-size: 1.5em;
-}
-
 .voice4 {
     font-family: "brenner sans condensed";
     color: darkgray;
@@ -633,66 +626,56 @@ You probably want to change the styling.
     margin-right: -.25em;
     font-weight: 400;
 }
-
 .p0.on span:nth-of-type(3) {
     opacity: 1;
     transition: 0s .5s;
     margin-right: -.25em;
     font-weight: 600;
 }
-
 .p0.on span:nth-of-type(4) {
     opacity: 1;
     transition: 0s .7s;
     margin-right: -.25em;
     font-family: "brenner";
 }
-
 .p0.on span:nth-of-type(5) {
     opacity: 1;
     transition: 0s 1.1s;
     margin-right: -.25em;
     font-family: "brenner";
 }
-
 .p0.on span:nth-of-type(6) {
     opacity: 1;
     transition: 0s 1.4s;
     margin-right: -.25em;
     font-family: "brenner";
 }
-
 .p0.on span:nth-of-type(7) {
     opacity: 1;
     transition: 0s 1.7s;
     margin-right: -.25em;
     font-family: "brenner";
 }
-
 .p0.on span:nth-of-type(8) {
     opacity: 1;
     transition: 0s 2s;
     font-family: "brenner";
 }
-
 .p0.on span:nth-of-type(9) {
     opacity: 1;
     transition: 0s 3s;
     font-family: "brenner mono";
 }
-
 .p0.on span:nth-of-type(10) {
     opacity: 1;
     transition: 0s 3.2s;
     font-family: "brenner mono";
 }
-
 .p0.on span:nth-of-type(11) {
     opacity: 1;
     transition: 0s 3.7s;
     font-family: "brenner sans";
 }
-
 .p1.on span:first-of-type {
     font-weight: 400;
     color: #cca845;
@@ -701,12 +684,10 @@ You probably want to change the styling.
     font-weight: 400;
     color: #cca845;
 }
-
 .p2 span {
     font-family: "brenner sans";
     font-weight: 900;
 }
-
 .p3.on span:first-of-type {
     font-weight: 400;
     color: #95e2f0;
@@ -724,7 +705,6 @@ You probably want to change the styling.
     font-weight: 300;
     color: black;
 }
-
 .p2, .p5, .p9 , .p11 span {
     text-transform: uppercase;
     position: relative;
@@ -738,7 +718,6 @@ You probably want to change the styling.
     background-size: 120% 100%;
     animation: 0.1s shake infinite alternate;
 }
-
 .p6.on span:first-of-type {
     font-weight: 400;
     color: #cca845;
@@ -747,7 +726,6 @@ You probably want to change the styling.
     font-weight: 400;
     color: #cca845;
 }
-
 .p7.on span:first-of-type {
     font-weight: 400;
     color: #cca845;
@@ -755,6 +733,21 @@ You probably want to change the styling.
 .p7.on span:nth-last-of-type(8) {
     font-weight: 400;
     color: #cca845;
+}
+.p8.on span:first-of-type{
+    font-family: "brenner sans condensed bold";
+    font-size: 1.5em;
+    color: #c72525;
+    text-transform: uppercase;
+}
+.p8.on span:nth-of-type(2){
+    font-family: "brenner sans condensed bold";
+    font-size: 1.5em;
+    color: #c72525;
+    text-transform: uppercase;
+}
+.voice3{
+    font-family: "brenner mono";
 }
 .p10.on span:first-of-type {
     font-weight: 400;
@@ -927,37 +920,73 @@ You probably want to change the styling.
     font-weight: 400;
     color: #628a91;
 }
+.p37.on span:nth-of-type(2){
+    color: black;
+}
 .p38.on span:first-of-type {
     font-weight: 400;
     color: #776531;
 }
-.p38.on span:nth-last-of-type(2) {
+.p38.on span:nth-of-type(2) {
     font-weight: 400;
     color: #776531;
+}
+.p38.on span:nth-of-type(3){
+    color: black;
 }
 .p39.on span:first-of-type {
     font-weight: 400;
     color: #628a91;
 }
+
+.p39.on span:nth-of-type(2),
+.p39.on span:nth-of-type(3),
+.p39.on span:nth-of-type(4),
+.p39.on span:nth-of-type(5),
+.p39.on span:nth-of-type(6),
+.p39.on span:nth-of-type(7),
+.p39.on span:nth-of-type(8),
+.p39.on span:nth-of-type(9),
+.p39.on span:nth-of-type(10),
+.p39.on span:nth-of-type(11),
+.p39.on span:nth-of-type(12){
+    color: black;
+}
 .p40.on span:first-of-type {
     font-weight: 400;
     color: #628a91;
+}
+.p40.on span:nth-of-type(2) {
+    color: black;
 }
 .p41.on span:first-of-type {
     font-weight: 400;
     color: #776531;
 }
-.p41.on span:nth-last-of-type(2) {
+.p41.on span:nth-of-type(2) {
     font-weight: 400;
     color: #776531;
+}
+.p41.on span:nth-of-type(3) {
+    color: black;
 }
 .p42.on span:first-of-type {
     font-weight: 400;
     color: #628a91;
 }
+.p42.on span:nth-of-type(2),
+.p42.on span:nth-of-type(3),
+.p42.on span:nth-of-type(4){
+    color: black;
+}
 .p43.on span:first-of-type {
     font-weight: 400;
     color: #776531;
+}
+.p43.on span:nth-of-type(3),
+.p43.on span:nth-of-type(4),
+.p43.on span:nth-of-type(5){
+    color: black;
 }
 .p43.on span:nth-last-of-type(4) {
     font-weight: 400;
@@ -1048,5 +1077,34 @@ You probably want to change the styling.
     } 
     100% {
         transform: skewX(0deg);
+    }
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31 {
+    animation: bg1 0.3s infinite;
+}
+
+@keyframes bg1 {
+    0% {
+        transform: translate(0px, 0px) rotate(0.1deg);
+    }
+    50% {
+    transform: translate(0px, 0px) rotate(-.1deg); 
+    }
+    100% {
+        transform: translate(0px, 0px) rotate(.3deg);
+    }
+}
+
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32 #video-placeholder{
+    animation: width 1s infinite;
+}
+
+@keyframes width {
+    0% {
+        width: 50vw;
+    }
+    100% {
+        width: 100vw;
     }
 }
