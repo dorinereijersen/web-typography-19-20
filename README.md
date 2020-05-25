@@ -17,12 +17,12 @@ We konden kiezen tussen twee dingen, een systeemfont of Brenner. Bij een systeem
 #### 'Fuck-off'
 In de eerste week heb ik het een en ander geprobeerd om te kijken hoe het in eerste instantie allemaal werkt. 
 Zo heb ik gekeken hoe ik 'fuck off skin job' zo kwaad of dreigend mogelijk kon maken. <br>
-<img src="images/fuckoff.png" width="300"></img> <br>
+<img src="images/fuckoff.png" width="400"></img> <br>
 Op de afbeelding is te zien dat het mij gelukt was om de zin rood te krijgen en heb ik gekeken welk brenner font het beste werkte. Ik kreeg hier als feedback dat niet de hele zin geschreeuwd werd, maar eigenlijk alleen het stukje 'fuck off'.
 
 #### Buzzer en bieep
 In de eerste week heb ik ook gekeken hoe ik woorden kon invoegen tussen de captions die al bestonden. Dit was al vrij snel gelukt, waardoor ik al wat geluiden kon vormgeven. Zie de afbeelding hieronder. <br>
-<img src="images/buzzer.png" width="300"></img>
+<img src="images/buzzer.png" width="400"></img><img src="images/pieep.png" width="400"></img>
 Door in css met keyframes te werken heb ik voor elkaar gekregen het woord te laten 'shaken', want als er een toeter af gaat resoneren vaak objecten in de buurt. Vandaar dat ik op het idee kwam om het woord te laten trillen. Toch leek het een aantal mensen leuker om het nog meer vorm te geven. Bijvoorbeeld met kleur op de achtergrond, dus dat heb ik meegenomen naar de week erna.
 
 <br>
@@ -31,12 +31,12 @@ Door in css met keyframes te werken heb ik voor elkaar gekregen het woord te lat
 ---
 #### 'Fuck-off'
 Na de feedback te hebben gehad dat niet de hele zin geschreeuwd wordt, heb ik alleen de eerste twee woorden rood en wat groter gemaakt. Zie de afbeelding. <br>
-<img src="images/fuckoff2.png" width="300"></img>
+<img src="images/fuckoff2.png" width="400"></img>
 
 #### Buzzer en bieep
 Ik heb gekeken hoe ik bij de geluiden van de buzzer en de pieptoon meer een gevoel kon meegeven. Dit heb ik opgelost door de achtergrond een kleur mee te geven. Bij de buzzer is dit een rode achtergrond en bij de pieptoon een witte achtergrond. 
 Bij rood associeer ik een harder geluid en bij wit een felle of hoge toon, dus vandaar dat ik deze kleuren heb gekozen.<br>
-<img src="images/buzzer2.png" width="500"></img>
+<img src="images/buzzer2.png" width="400"></img><img src="images/pieep2.png" width="400"></img>
 
 <br>
 
