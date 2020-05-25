@@ -14,6 +14,8 @@ We konden kiezen tussen twee dingen, een systeemfont of Brenner. Bij een systeem
 
 ### Week 1
 ---
+In deze week heb ik vooral het een en ander uitgeprobeerd om even mijn geheugen op te frissen aangezien het coderen al een tijd geleden was.
+
 #### 'Fuck-off'
 In de eerste week heb ik het een en ander geprobeerd om te kijken hoe het in eerste instantie allemaal werkt. 
 Zo heb ik gekeken hoe ik 'fuck off skin job' zo kwaad of dreigend mogelijk kon maken. <br>
@@ -29,6 +31,8 @@ Door in css met keyframes te werken heb ik voor elkaar gekregen het woord te lat
 
 ### Week 2
 ---
+Deze week heb ik een aantal dingen van week 1 verder uitgewerkt en heb ik nieuwe ideeën bedacht om meer een spanning mee te geven aan de film.
+
 #### 'Fuck-off'
 Na de feedback te hebben gehad dat niet de hele zin geschreeuwd wordt, heb ik alleen de eerste twee woorden rood en wat groter gemaakt. Zie de afbeelding. <br>
 <img src="images/fuckoff2.png" width="400"></img>
@@ -48,58 +52,12 @@ Bij het andere vak 'Web-Animatie' hoorde ik iets over CSS Filter langskomen, dus
 
 Op de afbeelding zie je links dat het beeld negatieve kleuren heeft en rechts normale kleuren heeft. Rechts is ook het beeld net nadat het piepgeluid is afgelopen en links is als de pieptoon op zijn hoogst is.
 Darice vond het niet storend en leuk bedacht, vooral omdat bij de afbeelding rechts het gevoel is alsof het stil valt en dat was precies de bedoeling.
+<br>
+Ik wil graag in scène 2 meer 'out of the box' ieeën bedenken. Ook wil ik daar meer spanning meegeven, omdat het personage daar veel zenuwachtiger overkomt.
 
 ### Week 3
 ---
+In deze week heb ik vooral gekeken naar scène 2. Ook heb ik een beetje mijn code doorgelopen om te kijken of ik alles een beetje netjes had neergezet. Dit was geen vereiste aan het vak, maar dat vond ik voor mezelf fijn aangezien het een beetje chaotisch was.
 
 
 
-<br>
-
-
-### Animatie
----
-De link naar mijn animatie: https://dorinereijersen.github.io/web-animatie/
-
-De interacties die het bevat zijn het volgende:<br>
- • Als de pagina geopend wordt, zijn er twee pijlen die bewegen. Dit heb ik gedaan, omdat in het echt de pijl op de weegschaal naar rechts beweegt, zodra er gewicht op de schaal komt. <br>
- Ik heb dit gedaan door bij de lange pijl deze code neer te zetten:
-    
-    ```css
-    svg #pijl polygon:first-child {
-    animation: pijl 1s ease-in-out infinite alternate;
-    transform-origin: bottom;
-    }
-    svg #pijl polygon {
-    animation: pijltje 1s ease-in-out infinite alternate;
-    transform-origin: bottom;
-    }
-    ```
-    
-Voor de kleinere pijl heb ik deze code hieronder gebruikt. Hier zie je dat de origin vanaf links draait, omdat het anders de verkeerde richting op gaat.
-
-    ```css
-    svg #pijl_klein polygon:last-child {
-    animation: pijl .5s ease-in-out infinite alternate;
-    transform-origin: left;
-    }
-    svg #pijl_klein polygon {
-    animation: pijltje .5s ease-in-out infinite alternate;
-    transform-origin: left;
-    }
-    ```
-
-• De punten van de pijlen worden oranje als je er overheen hovert. Op mobiel kan je hier op klikken. <br>
-• Kleuren worden negatief als je op je toesenbord op Z drukt. De Z staat voor het type model van de weegschaal. 
-Ik heb eerst gekeken met console.log wat voor getal de Z is, dat is dus 90. En vanaf daar gaat de code precies hetzelfde als wanneer je ergens op klikt, alleen verander je na EventListener de 'click' in 'keydown'.
-    ```js
-    var bodyBG = document.querySelector('body');
-
-    window.addEventListener("keydown", toggle);
-
-    function toggle(event) {
-        if(event.keyCode === 90) {
-            bodyBG.classList.toggle('click');
-    }
- }
-    ```
