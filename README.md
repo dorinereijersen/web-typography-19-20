@@ -22,7 +22,7 @@ Op de afbeelding is te zien dat het mij gelukt was om de zin rood te krijgen en 
 
 #### Buzzer en bieep
 In de eerste week heb ik ook gekeken hoe ik woorden kon invoegen tussen de captions die al bestonden. Dit was al vrij snel gelukt, waardoor ik al wat geluiden kon vormgeven. Zie de afbeelding hieronder. <br>
-<img src="images/buzzer.png" width="400"></img><img src="images/pieep.png" width="400"></img>
+<img src="images/buzzer.png" width="400"></img><img src="images/pieep.png" width="400"></img> <br>
 Door in css met keyframes te werken heb ik voor elkaar gekregen het woord te laten 'shaken', want als er een toeter af gaat resoneren vaak objecten in de buurt. Vandaar dat ik op het idee kwam om het woord te laten trillen. Toch leek het een aantal mensen leuker om het nog meer vorm te geven. Bijvoorbeeld met kleur op de achtergrond, dus dat heb ik meegenomen naar de week erna.
 
 <br>
@@ -37,8 +37,17 @@ Na de feedback te hebben gehad dat niet de hele zin geschreeuwd wordt, heb ik al
 Ik heb gekeken hoe ik bij de geluiden van de buzzer en de pieptoon meer een gevoel kon meegeven. Dit heb ik opgelost door de achtergrond een kleur mee te geven. Bij de buzzer is dit een rode achtergrond en bij de pieptoon een witte achtergrond. 
 Bij rood associeer ik een harder geluid en bij wit een felle of hoge toon, dus vandaar dat ik deze kleuren heb gekozen.<br>
 <img src="images/buzzer2.png" width="400"></img><img src="images/pieep2.png" width="400"></img>
-
 <br>
+
+#### 'Out of the box'
+Ik zag dat klasgenoten al veel dingen hadden uitgeprobeerd die al lekker out of the box waren, dus ik begon wat te bedenken voor de pieptoon aan het einde van scène 1. <br>
+Bij het andere vak 'Web-Animatie' hoorde ik iets over CSS Filter langskomen, dus het leek mij leuk om daar eens mee te gaan spelen.
+<br>
+<img src="images/filter.png" width="400"></img><img src="images/filter2.png" width="400"></img>
+<br>
+
+Op de afbeelding zie je links dat het beeld negatieve kleuren heeft en rechts normale kleuren heeft. Rechts is ook het beeld net nadat het piepgeluid is afgelopen en links is als de pieptoon op zijn hoogst is.
+Darice vond het niet storend en leuk bedacht, vooral omdat bij de afbeelding rechts het gevoel is alsof het stil valt en dat was precies de bedoeling.
 
 ### Week 3
 ---
