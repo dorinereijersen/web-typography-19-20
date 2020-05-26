@@ -83,4 +83,5 @@ Ook heb ik bij de geluiden, zoals een sirene de achtergrondkleur verandert waard
 #### 'Out of the box'
 Ik heb in scène 2 een rondje toegevoegd die het spannende geluid ondersteund wat bij de scène hoort. Deze veranderd steeds van grootte. Als het geluid indringender wordt, wordt het rondje groter. Ook de kleuren veranderen hierbij, op het spannendste moment wordt het rondje rood. <br>
 Bij het rondje heb ik ook een trilling toegevoegd. Wanneer de scène op zijn spannendste is, trilt het filmpje harder. <br>
-Om mij heen zag ik veel mensen die svg's in hun filmpjes hadden gezet en super leuke ideeën hebben bedacht, maar ik wilde niet meer dan wat ik nu had in mijn film omdat dit niet bij mij past. Ook heb ik naar Darice's feedback geluisterd dat ze van minimalistisch houdt en dat wilde ik niet verstoren.
+Om mij heen zag ik veel mensen die svg's in hun filmpjes hadden gezet en super leuke ideeën hebben bedacht, maar ik wilde niet meer dan wat ik nu had in mijn film omdat dit niet bij mij past. Ook heb ik naar Darice's feedback geluisterd dat ze van minimalistisch houdt en dat wilde ik niet verstoren. <br>
+Bekijk mijn closed-captions via deze link: <link src="https://dorinereijersen.github.io/web-typography-19-20/closed-captions/index.html">
