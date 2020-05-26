@@ -793,33 +793,44 @@ You probably want to change the styling.
 }
 
 .p1.on span:first-of-type,
-.p1.on span:nth-last-of-type(3),
+.p1.on span:nth-of-type(2),
 .p4.on span:first-of-type,
-.p4.on span:nth-last-of-type(7),
+.p4.on span:nth-of-type(2),
 .p6.on span:first-of-type,
-.p6.on span:nth-last-of-type(8),
+.p6.on span:nth-of-type(2),
 .p7.on span:first-of-type,
-.p7.on span:nth-last-of-type(8),
+.p7.on span:nth-of-type(2),
 .p10.on span:first-of-type,
-.p10.on span:nth-last-of-type(12),
+.p10.on span:nth-of-type(2),
 .p13.on span:first-of-type,
-.p13.on span:nth-last-of-type(2),
+.p13.on span:nth-of-type(2),
 .p16.on span:first-of-type,
-.p16.on span:nth-last-of-type(2),
+.p16.on span:nth-of-type(2),
 .p19.on span:first-of-type,
-.p19.on span:nth-last-of-type(2),
+.p19.on span:nth-of-type(2),
 .p22.on span:first-of-type,
-.p22.on span:nth-last-of-type(2),
+.p22.on span:nth-of-type(2),
 .p24.on span:first-of-type,
-.p24.on span:nth-last-of-type(2),
+.p24.on span:nth-of-type(2),
 .p27.on span:first-of-type,
-.p27.on span:nth-last-of-type(2),
+.p27.on span:nth-of-type(2),
 .p30.on span:first-of-type,
-.p30.on span:nth-last-of-type(2),
+.p30.on span:nth-of-type(2),
 .p33.on span:first-of-type,
-.p33.on span:nth-last-of-type(2),
+.p33.on span:nth-of-type(2),
+.p43.on span:first-of-type,
+.p43.on span:nth-of-type(2),
+.p45.on span:first-of-type,
+.p45.on span:nth-of-type(2),
+.p45.on span:nth-of-type(6),
+.p46.on span:first-of-type,
+.p46.on span:nth-of-type(2),
+.p46.on span:nth-of-type(6),
+.p47.on span:first-of-type,
+.p47.on span:nth-of-type(2),
+.p47.on span:nth-of-type(6),
 .p51.on span:first-of-type,
-.p51.on span:nth-last-of-type(4),
+.p51.on span:nth-of-type(2),
 .p53.on span:first-of-type,
 .p53.on span:nth-of-type(2),
 .p55.on span:first-of-type,
@@ -856,13 +867,23 @@ You probably want to change the styling.
     color: #cca845;
 }
 
-.p34.on span:nth-last-of-type(1),
-.p34.on span:nth-last-of-type(2),
-.p34.on span:nth-last-of-type(3),
-.p34.on span:nth-last-of-type(4),
-.p34.on span:nth-last-of-type(5),
-.p34.on span:nth-last-of-type(6),
-.p35.on span:nth-last-of-type(1),
+.p34.on span:nth-of-type(2),
+.p34.on span:nth-of-type(3),
+.p34.on span:nth-of-type(4),
+.p34.on span:nth-of-type(5),
+.p34.on span:nth-of-type(6),
+.p34.on span:nth-of-type(7),
+.p35.on span:nth-of-type(3),
+.p36.on span:nth-of-type(2),
+.p36.on span:nth-of-type(3),
+.p36.on span:nth-of-type(4),
+.p36.on span:nth-of-type(5),
+.p36.on span:nth-of-type(6),
+.p36.on span:nth-of-type(7),
+.p36.on span:nth-of-type(8),
+.p36.on span:nth-of-type(9),
+.p36.on span:nth-of-type(10),
+.p36.on span:nth-of-type(11),
 .p37.on span:nth-of-type(2),
 .p38.on span:nth-of-type(3),
 .p39.on span:nth-of-type(2),
@@ -907,22 +928,11 @@ You probably want to change the styling.
 }
 
 .p35.on span:first-of-type,
-.p35.on span:nth-last-of-type(2),
+.p35.on span:nth-of-type(2),
 .p38.on span:first-of-type,
 .p38.on span:nth-of-type(2),
 .p41.on span:first-of-type,
-.p41.on span:nth-of-type(2),
-.p43.on span:first-of-type,
-.p43.on span:nth-last-of-type(4),
-.p45.on span:first-of-type,
-.p45.on span:nth-last-of-type(5),
-.p45.on span:nth-last-of-type(1),
-.p46.on span:first-of-type,
-.p46.on span:nth-last-of-type(5),
-.p46.on span:nth-last-of-type(1),
-.p47.on span:first-of-type,
-.p47.on span:nth-last-of-type(5),
-.p47.on span:nth-last-of-type(1){ 
+.p41.on span:nth-of-type(2){ 
     font-weight: 400;
     color: #776531;
 }
@@ -1217,13 +1227,13 @@ body.sound41 .element{
     background-color: #ff0000;
   }
     100%{
-        transform: scale(1);
+        transform: scale(1.45);
         background-color: #691169;
     }
 }
 @keyframes stretch7 {
   0% {
-    transform: scale(1);
+    transform: scale(1.45);
     background-color: #691169;
     border-radius: 100%;
   }
