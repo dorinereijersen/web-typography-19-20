@@ -6,7 +6,7 @@ Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 
-/*Scène 1*/
+/*-----------Scène 1-----------*/
 
 #closed-captions p {
     opacity: 0;
@@ -15,6 +15,7 @@ Feel free to adjust the defaults to your needs.
     width: 100%;
     text-align: center;
     z-index: 3;
+    margin-top: -3%;
 }
 
 #closed-captions .on {
@@ -30,8 +31,8 @@ Feel free to adjust the defaults to your needs.
     display: block;
     margin: auto;
     margin-top: 5%;
-    width: 50%;
-    height: 30em;
+    width: 70%;
+    height: 35em;
     z-index: 2;
 }
 
@@ -61,6 +62,19 @@ body {
 
 /*animatie beep, buzzer > bewegen en kleuren*/
 
+.sound0::before {
+    content: '[Thrilling sound]';
+    color: white;
+    font-family: "brenner mono";
+    z-index: 4;
+    top: 80%;
+    position: absolute;
+    left: 45%;
+}
+.sound1::before {
+    content: '';
+}
+
 body.sound0.sound1.sound2 {
     animation: shake-little 0.1s infinite alternate;
     animation-play-state: running;
@@ -71,10 +85,28 @@ body.sound0.sound1.sound2.sound3 {
     animation: none;
 }
 
+body.sound0.sound1.sound2.sound3.sound4{
+    animation: intens 1s ease-in;
+}
+
+.sound4::before {
+    content: '[Sirene]';
+    color: white;
+    font-family: "brenner mono";
+    top: 85%;
+    position: absolute;
+    left: 50%;
+}
+
+.sound5::before {
+    content: '';
+}
+
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6{
     animation: shake-little 0.1s infinite alternate;
     animation-play-state: running;
     animation: peep 1s ease;
+    top: 95%;
 }
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7{
@@ -85,88 +117,243 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8 {
     animation: shake-little 0.1s infinite alternate;
     animation-play-state: running;
     animation: peep 1s ease;
+    top: 95%;
 }
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9{
     animation: none;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12{
-    animation: shake-little 1s ease;
+body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12 {
+    animation: shake-little 0.1s infinite alternate;
     animation-play-state: running;
     animation: peep 1s ease;
+    top: 95%;
+}
+
+/*bijbehorende keyframes*/
+
+@keyframes buzzer {
+    0% {
+        background-color: rgba(255, 0, 0, 0.26);
+    }
+
+    100% {
+        background-color: rgba(255, 0, 0, 0.79);
+    }
+}
+
+@keyframes peep {
+    0% {
+        background-color: rgba(255, 255, 255, 0.26);
+    }
+
+    100% {
+        background-color: rgba(204, 204, 204, 0.79);
+    }
 }
 
 /*video negatief*/
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13 #video-placeholder{
+.sound13 #video-placeholder{
     animation: invert1 2s infinite;
 }
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14 #video-placeholder{
+.sound14 #video-placeholder{
     animation: invert2 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15 #video-placeholder{
+.sound15 #video-placeholder{
     animation: invert3 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16 #video-placeholder{
+.sound16 #video-placeholder{
     animation: invert4 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17 #video-placeholder{
+.sound17 #video-placeholder{
     animation: invert5 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18 #video-placeholder{
+.sound18 #video-placeholder{
     animation: invert6 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19 #video-placeholder{
+.sound19 #video-placeholder{
     animation: invert7 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20 #video-placeholder{
+.sound20 #video-placeholder{
     animation: invert8 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21 #video-placeholder{
+.sound21 #video-placeholder{
     animation: invert9 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22 #video-placeholder{
+.sound22 #video-placeholder{
     animation: invert10 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23 #video-placeholder{
+.sound23 #video-placeholder{
     animation: invert11 3s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24 #video-placeholder{
+.sound24 #video-placeholder{
     animation: invert12 3s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25 #video-placeholder{
+.sound25 #video-placeholder{
     animation: invert13 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26 #video-placeholder{
+.sound26 #video-placeholder{
     animation: invert14 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27 #video-placeholder{
+.sound27 #video-placeholder{
     animation: invert15 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28 #video-placeholder{
+.sound28 #video-placeholder{
     animation: invert16 2s infinite;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29 #video-placeholder {
+.sound29 #video-placeholder {
     animation: none;
 }
 
-/*achtergrond mee veranderen*/
+/*keyframes invert*/
+
+@keyframes invert1 {
+    0% {
+        filter: invert(0%);
+    }
+    100% {
+        filter: invert(5%);
+    }
+}
+@keyframes invert2 {
+    0% {
+        filter: invert(5%);
+    }
+    100% {
+        filter: invert(10%);
+    }
+}
+@keyframes invert3 {
+    0% {
+        filter: invert(10%);
+    }
+    100% {
+        filter: invert(20%);
+    }
+}
+@keyframes invert4 {
+    0% {
+        filter: invert(20%);
+    }
+    100% {
+        filter: invert(30%);
+    }
+}
+@keyframes invert5 {
+    0% {
+        filter: invert(30%);
+    }
+    100% {
+        filter: invert(35%);
+    }
+}
+@keyframes invert6 {
+    0% {
+        filter: invert(35%);
+    }
+    100% {
+        filter: invert(40%);
+    }
+}
+@keyframes invert7 {
+    0% {
+        filter: invert(40%);
+    }
+    100% {
+        filter: invert(42%);
+    }
+}
+@keyframes invert8 {
+    0% {
+        filter: invert(42%);
+    }
+    100% {
+        filter: invert(60%);
+    }
+}
+@keyframes invert9 {
+    0% {
+        filter: invert(60%);
+    }
+    100% {
+        filter: invert(65%);
+    }
+}
+@keyframes invert10 {
+    0% {
+        filter: invert(65%);
+    }
+    100% {
+        filter: invert(70%);
+    }
+}
+@keyframes invert11 {
+    0% {
+        filter: invert(70%);
+    }
+    100% {
+        filter: invert(75%);
+    }
+}
+@keyframes invert12 {
+    0% {
+        filter: invert(75%);
+    }
+    100% {
+        filter: invert(80%);
+    }
+}
+@keyframes invert13 {
+    0% {
+        filter: invert(80%);
+    }
+    100% {
+        filter: invert(85%);
+    }
+}
+@keyframes invert14 {
+    0% {
+        filter: invert(85%);
+    }
+    100% {
+        filter: invert(90%);
+    }
+}
+@keyframes invert15 {
+    0% {
+        filter: invert(90%);
+    }
+    100% {
+        filter: invert(95%);
+    }
+}
+@keyframes invert16 {
+    0% {
+        filter: invert(95%);
+    }
+    100% {
+        filter: invert(100%);
+    }
+}
+
+/*achtergrondkleur mee veranderen*/
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13 {
     animation: kleur1 2s infinite;
@@ -177,6 +364,7 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15 {
     animation: kleur3 2s infinite;
 }
+
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16 {
     animation: kleur4 2s infinite;
 }
@@ -188,44 +376,34 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19 {
     animation: kleur7 2s infinite;
-    filter: saturate(1);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20 {
     animation: kleur8 2s infinite;
-    filter: saturate(2);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21 {
     animation: kleur9 2s infinite;
-    filter: saturate(3);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22 {
     animation: kleur10 2s infinite;
-    filter: saturate(4);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23 {
     animation: kleur11 2s infinite;
-    filter: saturate(5;)
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24 {
     animation: kleur12 2s infinite;
-    filter: saturate(6);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25 {
     animation: kleur13 2s infinite;
-    filter: saturate(7);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26 {
     animation: kleur14 2s infinite;
-    filter: saturate(8);
 }
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27 {
     animation: kleur15 2s infinite;
-    filter: saturate(9);
 }
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28 {
     animation: kleur16 2s infinite;
-    filter: saturate(10);
 }
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29 {
@@ -364,138 +542,6 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     }
 }
 
-
-/*keyframes invert*/
-
-@keyframes invert1 {
-    0% {
-        filter: invert(0%);
-    }
-    100% {
-        filter: invert(5%);
-    }
-}
-@keyframes invert2 {
-    0% {
-        filter: invert(5%);
-    }
-    100% {
-        filter: invert(10%);
-    }
-}
-@keyframes invert3 {
-    0% {
-        filter: invert(10%);
-    }
-    100% {
-        filter: invert(20%);
-    }
-}
-@keyframes invert4 {
-    0% {
-        filter: invert(20%);
-    }
-    100% {
-        filter: invert(30%);
-    }
-}
-@keyframes invert5 {
-    0% {
-        filter: invert(30%);
-    }
-    100% {
-        filter: invert(35%);
-    }
-}
-@keyframes invert6 {
-    0% {
-        filter: invert(35%);
-    }
-    100% {
-        filter: invert(40%);
-    }
-}
-@keyframes invert7 {
-    0% {
-        filter: invert(40%);
-    }
-    100% {
-        filter: invert(42%);
-    }
-}
-@keyframes invert8 {
-    0% {
-        filter: invert(42%);
-    }
-    100% {
-        filter: invert(60%);
-    }
-}
-@keyframes invert9 {
-    0% {
-        filter: invert(60%);
-    }
-    100% {
-        filter: invert(65%);
-    }
-}
-@keyframes invert10 {
-    0% {
-        filter: invert(65%);
-    }
-    100% {
-        filter: invert(70%);
-    }
-}
-@keyframes invert11 {
-    0% {
-        filter: invert(70%);
-    }
-    100% {
-        filter: invert(75%);
-    }
-}
-@keyframes invert12 {
-    0% {
-        filter: invert(75%);
-    }
-    100% {
-        filter: invert(80%);
-    }
-}
-@keyframes invert13 {
-    0% {
-        filter: invert(80%);
-    }
-    100% {
-        filter: invert(85%);
-    }
-}
-@keyframes invert14 {
-    0% {
-        filter: invert(85%);
-    }
-    100% {
-        filter: invert(90%);
-    }
-}
-@keyframes invert15 {
-    0% {
-        filter: invert(90%);
-    }
-    100% {
-        filter: invert(95%);
-    }
-}
-@keyframes invert16 {
-    0% {
-        filter: invert(95%);
-    }
-    100% {
-        filter: invert(100%);
-    }
-}
-
 @keyframes shake-little {
   2% {
     transform: translate(0px, 1px) rotate(0.5deg); }
@@ -598,28 +644,6 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
   0%, 100% {
     transform: translate(0, 0) rotate(0); } }
 
-/*kleurtjes*/
-
-@keyframes buzzer {
-    0% {
-        background-color: rgba(255, 0, 0, 0.26);
-    }
-
-    100% {
-        background-color: rgba(255, 0, 0, 0.79);
-    }
-}
-
-@keyframes peep {
-    0% {
-        background-color: rgba(255, 255, 255, 0.26);
-    }
-
-    100% {
-        background-color: rgba(204, 204, 204, 0.79);
-    }
-}
-
 /* **********************************************
 The first paragraph, with extended timing for 
 	all siblings. Basically what it does is that
@@ -700,12 +724,16 @@ You probably want to change the styling.
     font-family: "brenner sans";
     font-weight: 900;
 }
+
 .p5 , .p9 , .p11 span {
     font-family: "brenner sans";
     font-weight: 300;
     color: black;
 }
+
 .p2, .p5, .p9 , .p11 span {
+    top: 83%;
+    z-index: 5;
     text-transform: uppercase;
     position: relative;
     text-transform: uppercase;
@@ -713,11 +741,12 @@ You probably want to change the styling.
     font-size: 3vw;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: white;
     display: inline-block;
     background-size: 120% 100%;
     animation: 0.1s shake infinite alternate;
 }
+
 .p8.on span:first-of-type,
 .p8.on span:nth-of-type(2) {
     font-family: "brenner sans condensed bold";
@@ -827,7 +856,6 @@ You probably want to change the styling.
     color: #cca845;
 }
 
-
 .p34.on span:nth-last-of-type(1),
 .p34.on span:nth-last-of-type(2),
 .p34.on span:nth-last-of-type(3),
@@ -930,7 +958,7 @@ You probably want to change the styling.
     }
 }
 
-/*Scène 2*/
+/*-----------Scène 2-----------*/
 
 body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31 {
     animation: intens 1s ease-in;
@@ -950,7 +978,7 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     }
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31 .element{
+body.sound31 .element{
     background-color: red;
     animation-name: stretch;
     animation-duration: 4s;
@@ -962,15 +990,27 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation-play-state: running;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31 #video-placeholder {
-    animation: tril .2s infinite;
-    animation-play-state: running;
+/*figuur achter filmpje*/
+
+.element{
+    margin: 0 auto;
+    position: absolute;
+	top: 14%;
+	left: 1px;
+	right: 1px;
+	z-index: -1;
+	margin: 0 auto;
+	font-size: 2.3125em;
+    height: 500px;
+    width: 700px;
+    border-radius: 100%;
+    opacity: 60%;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32 .element{
+body.sound32 .element{
     background-color: red;
     animation-name: stretch1;
-    animation-duration: 4.5s;
+    animation-duration: 4s;
     animation-timing-function: ease-out;
     animation-delay: 0;
     animation-direction: alternate;
@@ -978,11 +1018,23 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation-fill-mode: none;
     animation-play-state: running;
 }
+body.sound31::before {
+    content: '[Nervous]';
+    color: white;
+    font-family: "brenner mono";
+    z-index: 4;
+    top: 85%;
+    position: absolute;
+    left: 50%;
+}
+body.sound31::before {
+    content: '';
+}
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32.sound33 .element{
+body.sound33 .element{
     background-color: red;
     animation-name: stretch2;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-out;
     animation-delay: 0;
     animation-direction: alternate;
@@ -991,10 +1043,43 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation-play-state: running;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32.sound33.sound34 .element{
+body.sound35::before {
+    content: '[Computer beeps]';
+    color: white;
+    font-family: "brenner mono";
+    z-index: 4;
+    top: 85%;
+    position: absolute;
+    left: 45%;
+}
+
+body.sound36::before {
+    content: '';
+}
+
+@keyframes telefoon {
+    0%{
+        filter: invert(0);
+    }
+    10%{
+        filter: invert(4);
+    }
+    15%{
+        filter: invert(0);    }
+    20%{
+        filter: invert(4);    }
+    25%{
+        filter: invert(0);
+    }
+    100%{
+        background-color: black;
+    }
+}
+
+body.sound35 .element{
     background-color: red;
     animation-name: stretch3;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-timing-function: ease-out;
     animation-delay: 0;
     animation-direction: alternate;
@@ -1002,7 +1087,8 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation-fill-mode: none;
     animation-play-state: running;
 }
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32.sound33.sound34.sound35 .element{
+
+body.sound36 .element{
     background-color: red;
     animation-name: stretch4;
     animation-duration: 4s;
@@ -1013,10 +1099,11 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation-fill-mode: none;
     animation-play-state: running;
 }
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32.sound33.sound34.sound35.sound36 .element{
+
+body.sound37 .element{
     background-color: red;
     animation-name: stretch5;
-    animation-duration: 6.5s;
+    animation-duration: 7s;
     animation-timing-function: ease-out;
     animation-delay: 0;
     animation-direction: alternate;
@@ -1025,7 +1112,7 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation-play-state: running;
 }
 
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32.sound33.sound34.sound35.sound36.sound37 .element{
+body.sound38 .element{
     background-color: red;
     animation-name: stretch6;
     animation-duration: 10.5s;
@@ -1036,23 +1123,11 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation-fill-mode: none;
     animation-play-state: running;
 }
-/*
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32.sound33.sound34.sound35.sound36.sound37.sound38 .element{
+
+body.sound40 .element{
     background-color: red;
     animation-name: stretch7;
-    animation-duration: 4s;
-    animation-timing-function: ease-out;
-    animation-delay: 0;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-fill-mode: none;
-    animation-play-state: running;
-}
-*/
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32.sound33.sound34.sound35.sound36.sound37.sound38.sound39 .element{
-    background-color: red;
-    animation-name: stretch7;
-    animation-duration: 4s;
+    animation-duration: 3.5s;
     animation-timing-function: ease;
     animation-delay: 0;
     animation-direction: alternate;
@@ -1060,32 +1135,12 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     animation-fill-mode: none;
     animation-play-state: running;
 }
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32.sound33.sound34.sound35.sound36.sound37.sound38.sound39.sound40 .element{
+
+body.sound41 .element{
     background-color: red;
     animation-name: stretch7;
     animation-play-state: paused;
 }
-body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound10.sound11.sound12.sound13.sound14.sound15.sound16.sound17.sound18.sound19.sound20.sound21.sound22.sound23.sound24.sound25.sound26.sound27.sound28.sound29.sound30.sound31.sound32.sound33.sound34.sound35.sound36.sound37.sound38.sound39.sound40 #video-placeholder {
-    animation: tril .2s infinite;
-    animation-play-state: paused;
-}
-
-.element{
-    margin: 0 auto;
-    position: absolute;
-	top: 10%;
-	left: 1px;
-	right: 1px;
-	z-index: -1;
-	margin: 0 auto;
-	font-size: 2.3125em;
-    height: 500px;
-    width: 500px;
-    border-radius: 100%;
-    opacity: 60%;
-}
-
-
 @keyframes stretch {
   0% {
     transform: scale(1);
@@ -1093,97 +1148,110 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
   }
   100% {
     transform: scale(1.4);
-    background-color: white;
+    background-color: #bae4ff;
   }
 }
-
 @keyframes stretch1 {
   0% {
     transform: scale(1.4);
-    background-color: white;
+    background-color: #bae4ff;
     border-radius: 100%;
   }
   100% {
     transform: scale(1.3);
-    background-color: lightgray;
+    background-color: #244c65;
   }
 }
-
 @keyframes stretch2 {
   0% {
     transform: scale(1.3);
-    background-color: white;
+    background-color: #244c65;
     border-radius: 100%;
-  }
-  50% {
-    background-color: lightgray;
   }
   100% {
     transform: scale(1.2);
-    background-color: gray;
+    background-color: #112734;
   }
 }
-
 @keyframes stretch3 {
   0% {
     transform: scale(1.2);
-    background-color: gray;
+    background-color: #112734;
     border-radius: 100%;
   }
   100% {
     transform: scale(1.3);
-    background-color: gray;
+    background-color: #244c65;
   }
 }
 @keyframes stretch4 {
   0% {
     transform: scale(1.3);
-    background-color: gray;
+    background-color: #244c65;
     border-radius: 100%;
   }
   100% {
     transform: scale(1.40);
-    background-color: lightgray;
+    background-color: #0079c4;
   }
 }
-
 @keyframes stretch5 {
   0% {
     transform: scale(1.40);
-    background-color: lightgray;
+    background-color: #0079c4;
     border-radius: 100%;
   }
   100% {
     transform: scale(1.55);
-    background-color: plum;
+    background-color: #691169;
   }
 }
-
 @keyframes stretch6 {
   0% {
     transform: scale(1.55);
-    background-color: plum;
+    background-color: #691169;
     border-radius: 100%;
   }
   30% {
     transform: scale(1.65);
-    background-color: red;
+    background-color: #ff0000;
   }
     100%{
-        transform: scale(1.2);
-        background-color: plum;
+        transform: scale(1);
+        background-color: #691169;
     }
 }
 @keyframes stretch7 {
   0% {
-    transform: scale(1.2);
-    background-color: plum;
+    transform: scale(1);
+    background-color: #691169;
     border-radius: 100%;
   }
     100% {
-        transform: scale(-15);
-        background-color: #3c3c3c;
+        transform: scale(-18);
+        background-color: #3e0c3e;
     }
+}
+
+
+/*trilling*/
+
+body.sound31 #video-placeholder {
+    animation: tril .2s infinite;
+    animation-play-state: running;
+}
+
+body.sound38 #video-placeholder{
+    animation: tril2 .1s infinite;
+}
+
+body.sound39 #video-placeholder{
+    animation: tril .1s infinite;
+}
+
+body.sound40 #video-placeholder {
+    animation: tril .2s infinite;
+    animation-play-state: paused;
 }
 
 @keyframes tril {
@@ -1194,7 +1262,19 @@ body.sound0.sound1.sound2.sound3.sound4.sound5.sound6.sound7.sound8.sound9.sound
     transform: translate(0px, 0px) rotate(-.1deg); 
     }
     100% {
-        transform: translate(0px, 0px) rotate(.3deg);
+        transform: translate(0px, 0px) rotate(.5deg);
+    }
+}
+
+@keyframes tril2 {
+    0% {
+        transform: translate(0px, 0px) rotate(0.1deg);
+    }
+    50% {
+    transform: translate(0px, 0px) rotate(-.1deg); 
+    }
+    100% {
+        transform: translate(0px, 0px) rotate(1deg);
     }
 }
 
