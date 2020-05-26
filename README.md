@@ -3,8 +3,8 @@
 
 ## Inleiding
 ---
-Voor het vak *Web-Typografie* mocht ik de closed captions vormgeven voor Darice. Darice is rond haar zesentwintigste doof geworden, dus zij is niet opgegroeid met gebarentaal, waardoor het communiceren of begrijpen van dingen een stuk lastiger werd.
-In deze readme zal ik het proces beschrijven.
+Voor het vak *Web-Typografie* mocht ik de closed-captions vormgeven voor Darice. Darice is rond haar zesentwintigste doof geworden, dus zij is niet opgegroeid met gebarentaal, waardoor het communiceren of begrijpen van dingen een stuk lastiger werd.
+In deze readme zal ik het proces beschrijven van de closed-captions.
 <br>
 
 ### Voorbereiding
