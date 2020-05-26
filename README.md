@@ -69,7 +69,7 @@ Ik wil graag in scène 2 meer 'out of the box' ideeën bedenken. Ook wil ik daar
 
 ### Week 3
 ---
-<i>In deze week heb ik vooral gekeken naar scène 2. Ook heb ik een beetje mijn code doorgelopen aangezien er nog een paar kleine foutjes in stonden.</i>
+<i>In deze week heb ik vooral gekeken naar scène 2. Het schermformaat heb ik groter gemaakt, want dat was ik nog vergeten in week 2. Ook heb ik een beetje mijn code doorgelopen aangezien er nog een paar kleine foutjes in stonden.</i>
 
 #### Geluiden
 Ik heb door de hele video heen nog een aantal geluiden toegevoegd in captions. Ik had soms een geluid wel vormgegeven, maar geen geluid erbij gezet. Dit was voor Darice soms nog te vaag. Het principe 'ignore conventions' is hierdoor beter verwerkt.<br>
